@@ -21,5 +21,5 @@ services:
     volumes:
       - ./deploy/nginx.prod.conf:/etc/nginx/conf.d/default.conf:ro
       - ./deploy/certbot/www:/var/www/certbot:ro
-      - ./deploy/certbot/conf:/etc/letencrypt:ro
+      - ./deploy/certbot/conf:/etc/letsencrypt:ro
 
