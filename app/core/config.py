@@ -24,6 +24,7 @@ class Settings(BaseSettings):
     POSTGRES_USER: str = ''
     POSTGRES_PASSWORD: str = ''
     POSTGRES_DB: str = ''
+    POSTGRES_PORT: str = 0
 
     ALEMBIC_DATABASE_URL: str = ''
     TEST_DATABASE_URL: str = 'sqlite+aiosqlite:///./test.db'

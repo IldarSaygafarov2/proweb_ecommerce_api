@@ -7,7 +7,8 @@ from app.repositories.products_repo import ProductRepository
 from app.models.category import Category
 from app.models.product import Product
 from app.schemas.products import ProductCreateSchema, ProductUpdateSchema
-from app.core.slug import slugify, make_unique_slug
+from app.core.slug import make_unique_slug
+from slugify import slugify
 from app.core.media import remove_local_media_file
 from app.services.cache import get_json, set_json, delete_by_prefix
 
